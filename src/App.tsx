@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {NewComponent} from "./NewComponent";
+import {Students} from "./Students";
 
 function App() {
   const [students, setStudents] = useState([
@@ -17,7 +17,7 @@ function App() {
       ]
   )
   return (
-      <NewComponent students={students}/>
+      <Students students={students}/>
   );
 }
 
