@@ -33,6 +33,7 @@ export const Cars = () => {
                         )
                     })
                 }
+
                 </tbody>
             </table>
 

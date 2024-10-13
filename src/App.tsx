@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Students} from "./Students";
 import {Cars} from "./Cars";
+import {Buttons} from "./Buttons";
 
 function App() {
   const [students, setStudents] = useState([
@@ -19,9 +20,9 @@ function App() {
   )
   return (
       <>
-          <Students students={students}/>
-          <br/>
-          <Cars/>
+          {/*<Students students={students}/>*/}
+          {/*<Cars/>*/}
+          <Buttons/>
       </>
   );
 }
